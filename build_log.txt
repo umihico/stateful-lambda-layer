@@ -1,0 +1,14 @@
+updating: python/ (stored 0%)
+updating: python/lambdaenv/ (stored 0%)
+updating: python/lambdaenv/__init__.py (deflated 63%)
+arn:aws:lambda:ap-northeast-1:556305356080:layer:stateful-lambda-layer:39
+  adding: lambda_function.py (deflated 53%)
+{
+    "StatusCode": 200,
+    "ExecutedVersion": "$LATEST"
+}
+"Environment Variable {'dynamic_val':20191226021228} in stateful-lambda-layer-playground became {'dynamic_val':20191226021436}"{
+    "StatusCode": 200,
+    "ExecutedVersion": "$LATEST"
+}
+"Environment Variable {'dynamic_val':20191226021436} in stateful-lambda-layer-playground became {'dynamic_val':20191226021441}"
