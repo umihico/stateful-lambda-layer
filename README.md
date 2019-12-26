@@ -6,7 +6,7 @@ If your API keys or something which expire regularly, you don't have to store th
 
 ## Installation
 
-1. Download [python-layer.zip](https://github.com/umihico/stateful-lambda-layer/python-layer.zip)
+1. Download [python-layer.zip](https://github.com/umihico/stateful-lambda-layer/raw/master/python-layer.zip)
 1. Add python-layer.zip as one of lambda layers and attach it on your lambda function.
 1. Attach policy `AWSLambdaFullAccess` or something on your lambda role to let boto3 executes `boto3.client('lambda').update_function_configuration`
 
