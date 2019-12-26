@@ -4,6 +4,8 @@ Complete updating and managing environment variables in AWS Lambda by itself!
 
 If your API keys or something which expire regularly, you don't have to store the small data somewhere outside.
 
+**This is not a best practice. You should use AWS System Manager Parameter Store if you need to update the env too often.**
+
 ## Installation
 
 1. Download [python-layer.zip](https://github.com/umihico/stateful-lambda-layer/raw/master/python-layer.zip)
